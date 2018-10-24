@@ -1,0 +1,598 @@
+
+*{
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+
+.clear:after{
+	content: " "; /*invisible element*/
+	clear: both;
+	display: block;
+}
+
+
+
+
+body {
+
+	/*background-color: black;*/
+	
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+	/*width: 960px;*/
+	/*background-color: grey;*/
+	/*height: 2000px;*/
+}
+
+
+
+
+a:link
+{
+	color:  black;
+	/*text-decoration-color: none;*/
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: purple;
+}
+
+/*nav here ------------------------------*/
+
+.page-title {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+}
+.nav-fix {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	z-index: 98;
+	top: 0;
+	left: 0;
+	/*border: 1px solid red;*/
+}
+
+
+
+
+
+.color-br {
+	border: 1px solid red;
+	/*width:100px;*/
+}
+
+.nav-icon-main {
+	font-size: 20px;
+}
+
+
+
+.nav-text-main {
+	font-size: .7em;
+	text-decoration: none;
+	line-height: 15px;
+}
+
+	/*--------------me-icon-text-------------*/
+
+#me-icon {
+		position: relative;
+}
+
+#me-text {
+visibility: hidden;
+position: absolute;
+}
+
+#me-icon:hover #me-text {
+	visibility: visible;
+	/*background-color: red;*/
+	color: purple;
+}
+
+#me-icon:hover {
+	font-size: 22px;
+}
+
+.icon-socials {
+	/*font-size: 2em;*/
+	margin-top: 10px;
+	/*margin-right: 3px;*/
+	/*padding: 2px;*/
+	height: 40px;
+}
+
+/*--------------skills-icon-text-------------*/
+
+#skills-icon {
+	position: relative;
+}
+
+#skills-text {
+visibility: hidden;
+position: absolute;
+left: -5px;
+}
+
+#skills-icon:hover #skills-text{
+	visibility: visible;
+	/*background-color: red;*/
+}
+
+#skills-icon:hover {
+	font-size: 22px;
+}
+
+
+/*--------------projects-icon-text-------------*/
+
+#projects-icon {
+	position: relative;
+
+}
+
+#projects-text {
+position: absolute;
+left: -10px;
+visibility: hidden;
+/*top: -40px;*/
+}
+
+#projects-icon:hover #projects-text{
+	visibility: visible;
+	/*background-color: red;*/
+}
+
+#projects-icon:hover {
+	font-size: 22px;
+	color: red;
+	/*background-color: black;*/
+}
+
+
+/*--------------me-icon-text-------------*/
+
+#contact-icon {
+	position: relative;
+}
+
+#contact-text {
+position: absolute;
+left: -10px;
+visibility: hidden;
+/*top: -60px;*/
+}
+
+#contact-icon:hover #contact-text{
+	visibility: visible;
+	/*background-color: red;*/
+}
+
+#contact-icon:hover {
+	font-size: 22px;
+}
+
+/*-----------------------------------------article--------------------------------- */
+article {
+	padding-top: 100px;
+	/*height: 800px;*/
+	/*border: 1px solid blue;*/
+}
+
+/*.left-article {
+height: 50vh;
+}
+
+.right-article {
+height: 50vh;
+}
+*/
+
+.sub-titles {
+	/*font-family: 'Lobster', cursive;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Righteous', cursive;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 120px;
+}
+
+.sub-titles-small {
+	font-family: 'Righteous', cursive;
+	font-size: 2em;
+	text-align: center;
+	position: relative;
+	top: 100px;	
+}
+
+.page-content {
+	/*padding: 0 5% 0 5%;*/
+	/*border: 1px solid blue;*/
+	/*margin: 0;*/
+}
+
+
+/*about me page her --------------------------------*/
+
+
+#profile-photo {
+	width: 100%;
+	/*height: 50%;*/
+
+	height: 480px;
+	/*background-image: url(../images/profile.jpg);*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: 472px 100px;*/
+	/*background-attachment: fixed; */
+	/*background-color: red;*/
+}
+
+.page-icons-me {
+	text-align: center;
+	position: relative;
+	top: 80px;
+}
+
+/*skills page here ----------------*/
+
+#skills-page .left-article {
+	background-image: url(../images/skills.jpg);
+	/*width: 500px;*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	background-attachment: fixed; 
+	height: 400px;
+}
+
+#me-page left-article {
+	height: 50vh;
+}
+
+#sub-titles-skills {
+	/*font-family: 'Lobster', cursive;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Righteous', cursive;
+	font-size: 3em;
+	text-align: center;
+	/*margin: 0;*/
+	/*position: relative;*/
+	/*top: 120px;*/
+}
+
+.icon-skills {
+	/*margin: 10px;*/
+	margin-right: 55px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 70px;
+	border: 1px dashed red;
+	padding: 5px;
+}
+
+.icon-skills-others {
+	margin: 3px;
+	height: 55px;
+	border: 1px dashed red;
+}
+
+.list-skills {
+	/*list-style: none;*/
+	text-align: left;
+	margin-left: 30px;
+}
+
+
+.page-icons-skills {
+	text-align: center;
+	/*position: relative;*/
+	/*top: 80px;*/
+}
+
+
+
+
+/*projects page here--------------------------------------*/
+
+.capstone-photos{
+
+	width: 100%;
+	margin: 0 auto;
+	height: 60vh;
+}
+
+#projects-page .right-article
+{
+	height: 50vh;
+}
+
+
+
+
+
+/*PROJECTS PAGE HERE----------------*/
+
+#sub-titles-projects {
+	/*font-family: 'Lobster', cursive;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Righteous', cursive;
+	font-size: 3em;
+	text-align: center;
+	/*margin: 0;*/
+	position: relative;
+	top: 120px;
+}
+
+.page-icons-projects {
+	text-align: center;
+	position: relative;
+	top: 110px;
+	/*text-decoration: none;*/
+}
+.icon-projects {
+	margin-top: 10px;
+	height: 50px;
+	margin-left: 10px;
+	text-decoration:none;;
+	position: relative;
+}
+
+#icon-text-cap1 {
+	visibility: hidden;
+	position: absolute;
+	top: 60px;
+	left: 150px;
+
+}
+
+#icon-text-cap2 {
+	visibility: hidden;
+	position: absolute;
+	top: 60px;
+	left: 220px;
+
+}
+
+#icon-text-cap3 {
+	visibility: hidden;
+	position: absolute;
+	top: 60px;
+	right: 150px;
+
+}
+.icon-projects-text
+{
+	background-color: black;
+	padding: 1px;
+	color: white;
+
+}
+
+#icon-cap1:hover~#icon-text-cap1 {
+	visibility: visible;
+	text-decoration: none;
+}
+
+#icon-cap2:hover~#icon-text-cap2 {
+	visibility: visible;
+	/*text-decoration-color: none;*/
+	text-decoration:none;
+}
+
+#icon-cap3:hover~#icon-text-cap3 {
+	visibility: visible;
+	/*text-decoration:none;*/
+}
+
+
+/*Contact page here .......................................*/
+
+#contact-page .left-article {
+	background-image: url(../images/contact.jpg);
+	/*width: 500px;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	height: 400px;
+}
+
+#sub-titles-contact {
+	/*font-family: 'Lobster', cursive;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Righteous', cursive;
+	font-size: 3em;
+	text-align: center;
+	/*margin: 0;*/
+	/*position: relative;*/
+	/*top: 120px;*/
+}
+
+
+
+/*BACK TO TOP ICON .....................................*/
+
+#backtotop-icon {
+	font-size: 4em;
+	text-align: right;
+}
+
+
+
+
+
+
+/*-------------------------------FOOTER-----------------------------------*/
+
+
+
+
+#socials-icons {
+	/*border:1px white solid;*/
+	text-align: center;
+	/*padding-right: 10px;*/
+}
+footer {
+	
+	height: 50px;
+	background-image: url(../images/foot.jpg);
+	background-position: cover;
+	background-repeat: no-repeat;
+	z-index: 100;
+	width: 100%;
+}
+
+footer #icon-footer1:link,
+footer #icon-footer1:visited, 
+footer #icon-footer2:link, 
+footer #icon-footer2:visited,
+footer #icon-footer3:link, 
+footer #icon-footer3:visited, 
+footer #icon-footer4:link, 
+footer #icon-footer4:visited,
+footer #icon-footer5:link, 
+footer #icon-footer5:visited  {
+
+	color: white;
+	font-size: 2em;
+}
+
+footer span {
+	/*padding-left: 20px;*/
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+/*MOBILE SCREEN*/
+
+@media only screen and (max-width: 400px) {
+
+#lg-md-nav {
+	display: none;
+}
+
+#profile-photo {
+	/*height: 100%;*/
+	height: 30vh;
+}
+
+.sub-titles {
+	/*font-family: 'Righteous', cursive;*/
+	/*font-size: 3em;*/
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 50px;
+}
+
+.sub-titles-small {
+	font-family: 'Righteous', cursive;
+	font-size: 2em;
+	text-align: center;
+	position: relative;
+	top: 20px;	
+}
+
+.page-icons-me {
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+
+
+#skills-page .left-article {
+	background-image: url(../images/skills.jpg);
+	/*width: 500px;*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	background-attachment: fixed; 
+	height: 400px;
+}
+
+#icon-text-cap1 {
+	visibility: visible;
+	position: absolute;
+	top: 60px;
+	left: 90px;
+
+}
+
+#icon-text-cap2 {
+	visibility: visible;
+	position: absolute;
+	top: 60px;
+	left: 160px;
+
+}
+
+#icon-text-cap3 {
+	visibility: visible;
+	position: absolute;
+	top: 60px;
+	right: 80px;
+
+}
+
+.icon-projects-text
+{
+	font-size: 0.8em;
+	background-color: white;
+	padding: 1px;
+	color: black;
+
+}
+
+
+
+}
+
+#contact-page .left-article {
+	background-image: url(../images/contact.jpg);
+	/*width: 500px;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	height: 400px;
+}
+
+
+
+}
+
+/*TABLET VIEW */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+body {
+	/*width: 90vh;*/
+}
+
+#mobile-nav {
+	display: none;
+}
+}
+
+/*DESKTOP VIEW*/
+@media only screen and (min-width: 961px) { 
+body {
+	width: 80%;
+}
+
+#mobile-nav {
+	display: none;
+}
+}
+
+
+
