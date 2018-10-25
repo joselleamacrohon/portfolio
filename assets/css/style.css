@@ -495,6 +495,8 @@ footer span {
 
 #profile-photo {
 	/*height: 100%;*/
+	/*height: 30vh;*/
+	width: 100%;
 	height: 30vh;
 }
 
@@ -521,6 +523,11 @@ footer span {
 	top: -.5em;
 }
 
+.icon-skills {
+	height: 60px;
+	padding-left: 0;
+	padding-right: 0;
+}
 
 #skills-page .left-article {
 	background-image: url(../images/skills.jpg);
@@ -584,20 +591,56 @@ footer {
 
 
 
-}
+
 
 /*TABLET VIEW */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-body {
-	/*width: 90vh;*/
 
+
+#me-page #profile-photo {
+	width: 100%;
+	/*height: auto;*/
+	/*border: 2px solid red;*/
+	/*background-color: red;*/
 }
 
-
-#mobile-nav {
+#lg-md-nav {
 	display: none;
 }
+
+#first-name {
+	/*font-family: 'Lobster', cursive;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: 'Righteous', cursive;*/
+	/*font-size: 4em;*/
+	/*text-align: center;*/
+	/*margin: 0;*/
+	/*background-color: red;*/
+	position: relative;
+	top: 10px;
 }
+
+#last-name {
+	/*font-family: 'Righteous', cursive;*/
+	/*font-size: 3em;*/
+	/*text-align: center;*/
+	position: relative;
+	top: -10px;	
+}
+
+#card-me-page {
+	border: none;
+}
+
+.page-icons-me {
+	/*text-align: center;*/
+	position: relative;
+	top: -40px;
+}
+
+
+} /*end tablet view*/
+
 
 /*DESKTOP VIEW*/
 @media only screen and (min-width: 961px) { 
