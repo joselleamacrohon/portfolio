@@ -179,6 +179,7 @@ visibility: hidden;
 #contact-text {
 position: absolute;
 left: -10px;
+top: 60px;
 visibility: hidden;
 /*top: -60px;*/
 }
@@ -264,10 +265,10 @@ height: 50vh;
 /*skills page here ----------------*/
 
 #skills-page .left-article {
-	background-image: url(../images/skills.jpg);
+	background-image: url(../images/skills.jpeg);
 	/*width: 500px;*/
-	/*background-size: cover;*/
-	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	height: 60vh;
 }
@@ -310,6 +311,9 @@ height: 50vh;
 	/*top: 80px;*/
 }
 
+.icon-skills:hover {
+	background-color: #17a2b8;
+}
 
 
 
@@ -328,10 +332,11 @@ height: 50vh;
 }
 
 
-
-
-
-/*PROJECTS PAGE HERE----------------*/
+.carousel-caption-projects {
+	margin-bottom: 200px;
+	text-shadow: 1px 1px 4px black;
+	background-color: rgba(64,64,64,.4);
+}
 
 #sub-titles-projects {
 	/*font-family: 'Lobster', cursive;*/
@@ -528,6 +533,8 @@ footer span {
 	padding-left: 0;
 	padding-right: 0;
 }
+
+
 
 #skills-page .left-article {
 	background-image: url(../images/skills.jpg);
