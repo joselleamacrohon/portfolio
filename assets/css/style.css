@@ -19,16 +19,12 @@
 
 body {
 
-	/*background-color: black;*/
-	
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
 }
 
 .container-fluid {
-	/*width: 960px;*/
-	/*background-color: grey;*/
-	/*height: 2000px;*/
+
 }
 
 
@@ -37,7 +33,7 @@ body {
 a:link
 {
 	color:  black;
-	/*text-decoration-color: none;*/
+	text-decoration: none;
 }
 
 a:visited {
@@ -68,8 +64,13 @@ a:hover {
 	padding: .8em;
 }
 
-.nav-link:link, .nav-link:visited {
-	color: green;
+
+#mobile-nav .nav-link{
+	color: black;
+}
+
+#mobile-nav .nav-link:hover {
+	color: purple;
 }
 
 
@@ -86,7 +87,6 @@ a:hover {
 
 .nav-text-main {
 	font-size: .7em;
-	text-decoration: none;
 	line-height: 15px;
 }
 
@@ -99,6 +99,7 @@ a:hover {
 #me-text {
 visibility: hidden;
 position: absolute;
+/*right: 1px;*/
 }
 
 #me-icon:hover #me-text {
@@ -113,10 +114,7 @@ position: absolute;
 }
 
 .icon-socials {
-	/*font-size: 2em;*/
 	margin-top: 10px;
-	/*margin-right: 3px;*/
-	/*padding: 2px;*/
 	height: 40px;
 }
 
@@ -129,7 +127,7 @@ position: absolute;
 #skills-text {
 visibility: hidden;
 position: absolute;
-left: -5px;
+left: 1px;
 }
 
 #skills-icon:hover #skills-text{
@@ -153,7 +151,7 @@ left: -5px;
 
 #projects-text {
 position: absolute;
-left: -10px;
+left: -5px;
 visibility: hidden;
 /*top: -40px;*/
 }
@@ -178,7 +176,7 @@ visibility: hidden;
 
 #contact-text {
 position: absolute;
-left: -10px;
+left: 2px;
 top: 60px;
 visibility: hidden;
 /*top: -60px;*/
