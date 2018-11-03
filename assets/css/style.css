@@ -8,17 +8,8 @@
 
 }
 
-.clear:after{
-	content: " "; /*invisible element*/
-	clear: both;
-	display: block;
-}
-
-
-
 
 body {
-
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
 }
@@ -26,8 +17,6 @@ body {
 .container-fluid {
 
 }
-
-
 
 
 a:link
@@ -358,7 +347,7 @@ height: 50vh;
 	height: 50px;
 	margin-left: 10px;
 	margin-right: 10px;
-	text-decoration:none;;
+	text-decoration:none;
 	position: relative;
 }
 
@@ -416,9 +405,11 @@ height: 50vh;
 	background-image: url(../images/contact.jpg);
 	/*width: 500px;*/
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	height: 400px;
+
 }
 
 #sub-titles-contact {
@@ -458,7 +449,7 @@ height: 50vh;
 }
 footer {
 	
-	height: 50px;
+	height: auto;
 	background-image: url(../images/foot.jpg);
 	background-position: cover;
 	background-repeat: no-repeat;
@@ -466,20 +457,30 @@ footer {
 	width: 100%;
 }
 
-footer #icon-footer1:link,
-footer #icon-footer1:visited, 
-footer #icon-footer2:link, 
-footer #icon-footer2:visited,
-footer #icon-footer3:link, 
-footer #icon-footer3:visited, 
-footer #icon-footer4:link, 
-footer #icon-footer4:visited,
-footer #icon-footer5:link, 
-footer #icon-footer5:visited  {
+#icon-footer1:link,
+#icon-footer1:visited, 
+#icon-footer2:link, 
+#icon-footer2:visited,
+#icon-footer3:link, 
+#icon-footer3:visited, 
+#icon-footer4:link, 
+#icon-footer4:visited,
+#icon-footer5:link, 
+#icon-footer5:visited  {
 
 	color: white;
 	font-size: 2em;
 }
+
+#icon-footer1:hover,
+#icon-footer2:hover, 
+#icon-footer3:hover, 
+#icon-footer4:hover, 
+#icon-footer5:hover{
+	color: purple;
+}
+
+
 
 footer span {
 	/*padding-left: 20px;*/
@@ -490,173 +491,161 @@ footer span {
 
 /*MOBILE SCREEN*/
 
-@media only screen and (max-width: 400px) {
-
-#lg-md-nav {
-	display: none;
-}
-
-#profile-photo {
-	/*height: 100%;*/
-	/*height: 30vh;*/
-	width: 100%;
-	height: 30vh;
-}
-
-#first-name {
-	/*font-family: 'Righteous', cursive;*/
-	font-size: 3em;
-	text-align: center;
-	margin: 0;
-	position: relative;
-	top: 50px;
-}
-
-#last-name {
-	font-family: 'Righteous', cursive;
-	font-size: 2em;
-	text-align: center;
-	position: relative;
-	top: 25px;	
-}
-
-.page-icons-me {
-	text-align: center;
-	position: relative;
-	top: -.5em;
-}
-
-.icon-skills {
-	height: 60px;
-	padding-left: 0;
-	padding-right: 0;
-}
-
-
-
-#skills-page .left-article {
-	background-image: url(../images/skills.jpeg);
-	/*width: 500px;*/
-	/*background-size: cover;*/
-	/*background-repeat: no-repeat;*/
-	background-attachment: fixed; 
-	height: 400px;
-}
-
-#icon-text-cap1 {
-	visibility: visible;
-	position: absolute;
-	top: 60px;
-	left: 70px;
-
-}
-
-#icon-text-cap2 {
-	visibility: visible;
-	position: absolute;
-	top: 60px;
-	left: 145px;
-
-}
-
-#icon-text-cap3 {
-	visibility: visible;
-	position: absolute;
-	top: 60px;
-	right: 75px;
-
-}
-
-.icon-projects-text
+@media only screen and (max-width: 400px)
 {
-	font-size: 0.8em;
-	background-color: white;
-	padding: 1px;
-	color: black;
 
-}
+	#lg-md-nav {
+		display: none;
+	}
 
-.capstone-box {
-	margin-bottom: .5em;
-}
+	#profile-photo {
+		/*height: 100%;*/
+		/*height: 30vh;*/
+		width: 100%;
+		height: 30vh;
+	}
 
-}
+	#first-name {
+		/*font-family: 'Righteous', cursive;*/
+		font-size: 3em;
+		text-align: center;
+		margin: 0;
+		position: relative;
+		top: 50px;
+	}
 
-#contact-page .left-article {
-	background-image: url(../images/contact.jpg);
-	/*width: 500px;*/
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	height: 400px;
-}
-footer {
-	height: auto;
-}
+	#last-name {
+		font-family: 'Righteous', cursive;
+		font-size: 2em;
+		text-align: center;
+		position: relative;
+		top: 25px;	
+	}
+
+	.page-icons-me {
+		text-align: center;
+		position: relative;
+		top: -.5em;
+	}
+
+	.icon-skills {
+		height: 60px;
+		padding-left: 0;
+		padding-right: 0;
+	}
 
 
 
+	#skills-page .left-article {
+		background-image: url(../images/skills.jpeg);
+		/*width: 500px;*/
+		/*background-size: cover;*/
+		/*background-repeat: no-repeat;*/
+		background-attachment: fixed; 
+		height: 400px;
+	}
 
+	#icon-text-cap1 {
+		visibility: visible;
+		position: absolute;
+		top: 60px;
+		left: 70px;
+
+	}
+
+	#icon-text-cap2 {
+		visibility: visible;
+		position: absolute;
+		top: 60px;
+		left: 145px;
+
+	}
+
+	#icon-text-cap3 {
+		visibility: visible;
+		position: absolute;
+		top: 60px;
+		right: 75px;
+
+	}
+
+	.icon-projects-text
+	{
+		font-size: 0.8em;
+		background-color: white;
+		padding: 1px;
+		color: black;
+
+	}
+
+	.capstone-box {
+		margin-bottom: .5em;
+	}
+
+	
+
+	#contact-page .left-article {
+		background-image: url(../images/contact.jpg);
+		/*width: 500px;*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed; 
+		height: 400px;
+	}
+	footer {
+		height: auto;
+	}
+
+}/*end of mobile view*/
 
 /*TABLET VIEW */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+	#lg-md-nav {
+		display: none;
+	}
 
+	#profile-photo {
+		width: 100%;
+		height: auto;
+	}
 
-#me-page #profile-photo {
-	width: 100%;
-	/*height: auto;*/
-	/*border: 2px solid red;*/
-	/*background-color: red;*/
-}
+	
 
-#lg-md-nav {
-	display: none;
-}
+	#first-name {
+		position: relative;
+		top: 10px;
+	}
 
-#first-name {
-	/*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Roboto', sans-serif;*/
-	/*font-family: 'Righteous', cursive;*/
-	/*font-size: 4em;*/
-	/*text-align: center;*/
-	/*margin: 0;*/
-	/*background-color: red;*/
-	position: relative;
-	top: 10px;
-}
+	#last-name {
+		position: relative;
+		top: -10px;	
+		margin-bottom: 0
+	}
 
-#last-name {
-	/*font-family: 'Righteous', cursive;*/
-	/*font-size: 3em;*/
-	/*text-align: center;*/
-	position: relative;
-	top: -10px;	
-}
+	#card-me-page {
+		border: none;
+	}
 
-#card-me-page {
-	border: none;
-}
-
-.page-icons-me {
-	/*text-align: center;*/
-	position: relative;
-	top: -40px;
-}
-
+	.page-icons-me {
+		position: relative;
+		top: -.5em;
+		margin-bottom: 0;
+	}
 
 } /*end tablet view*/
 
 
 /*DESKTOP VIEW*/
-@media only screen and (min-width: 961px) { 
-body {
-	width: 80%;
-}
+@media only screen and (min-width: 961px)
+{ 
+	body{
+		width: 80%;
+	}
 
-#mobile-nav {
-	display: none;
-}
-}
+	#mobile-nav {
+		display: none;
+	}
+} /*end of desktop view*/
 
 
 

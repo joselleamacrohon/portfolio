@@ -8,7 +8,14 @@
 	<title>PORTFOLIO</title>
 
 	<!-- bootstrap css --> <!-- should be first to overide by external css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"> -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  
+
+	 <!-- jquery popperjs javascript -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 	<!-- Animate CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
@@ -47,15 +54,8 @@
 							SKILLS
 						</span></a>
 					</li>
-					<li id="projects-icon" class="nav-item nav-icon-main"><a class="nav-link" href="#projects-page"><i class="fas fa-briefcase"></i>
-						<span id="projects-text" class="nav-text-main">
-							PROJECTS
-						</span></a>
-					</li>
-					<li id="contact-icon" class="nav-item nav-icon-main"><a class="nav-link" href="#contact-page"><i class="fas fa-comments"></i><span id="contact-text" class="nav-text-main">
-							CONTACT
-						</span></a>
-					</li>
+					<li id="projects-icon" class="nav-item nav-icon-main"><a class="nav-link" href="#projects-page"><i class="fas fa-briefcase"></i><span id="projects-text" class="nav-text-main">PROJECTS</span></a></li>
+					<li id="contact-icon" class="nav-item nav-icon-main"><a class="nav-link" href="#contact-page"><i class="fas fa-comments"></i><span id="contact-text" class="nav-text-main">CONTACT</span></a></li>
 				</ul>	
 		</nav>
 	</div> <!-- end of nav-lg-md -->
@@ -68,13 +68,13 @@
 
 				<div id="navbar-nav" class="collapse navbar-collapse">
 						<ul class="navbar-nav ml-auto">
-							<li class="nav-item"><a class="nav-linkb" href="#me-page"><i class="fas fa-home"></i> About Me</a></li>
+							<li class="nav-item"><a class="nav-link" href="#me-page"><i class="fas fa-home"></i> About Me</a></li>
 										
-							<li class="nav-item"><a class="nav-linkb" href="#skills-page"><i class="fas fa-wrench"></i> Skills</a></li>
+							<li class="nav-item"><a class="nav-link" href="#skills-page"><i class="fas fa-wrench"></i> Skills</a></li>
 
-							<li class="nav-item"><a class="nav-linkb" href="#projects-page"><i class="fas fa-briefcase"></i> Projects</a></li>
+							<li class="nav-item"><a class="nav-link" href="#projects-page"><i class="fas fa-briefcase"></i> Projects</a></li>
 
-							<li class="nav-item"><a class="nav-linkb" href="#contact-page"><i class="fas fa-comments"></i> Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contact-page"><i class="fas fa-comments"></i> Contact</a></li>
 
 						</ul>	
 				</div>
@@ -91,38 +91,24 @@
 			<div class="right-article col-lg-4 col-md-12 px-0">
 				<p id="first-name">JOSELLE </p>
 				<p id="last-name" >MACROHON</p>
-				<!-- <p class="sub-titles-small">Josh</p> -->
 				<p class="page-icons-me ">
 					<span><a href="https://www.facebook.com/joselle.macrohon" target="_blank"><img class="icon-socials" src="assets/images/fb.png"></a></span>
 					<span><a href="https://www.instagram.com/joshermarie/" target="_blank"><img class="icon-socials" src="assets/images/instagram.png"></a></span>
 					<span><a href="https://www.linkedin.com/in/joselleamacrohon/" target="_blank"><img class="icon-socials" src="assets/images/linkedin.png"></a></span>
 					<span><a href="https://drive.google.com/file/d/1N06w5PBo0IWb7jpMvVlj_eWJHgw06S4b/view?usp=sharing" target="_blank"><img class="icon-socials" src="assets/images/resume1.png"></a></span>
-
-					<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
-  Tooltip
 				</p>
 			</div>
 			<hr>
 
 			<div class="container-fluid">
 				<div class="col-12 col-md-12">
-					<!-- <hr>
-					<p class="sub-titles-title">Full Stack Web Developer</p>
-					<hr>
-					<p class="page-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
-
 					<div id="card-me-page" class="card mt-4">
 						  <div class="card-body">
 						  	<hr>	
 						    <h4 class="card-title text-center"><strong>Full Stack Web Developer</strong></h4>
 						    <hr>	
 						    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-						    <p class="card-text text-justify">Hello! I am Joselle or Josh for short. I am an electronics engineer with passion in technology and innovation. I believe that innovation is the way to make life easier and healthier. I have a masters degree in Electronics and Communiciation Engineering and also took the same bachelors degree. I have experienced working with a utility company as an instrumentation engineer who specializes in meter management. I also worked as a general manager for a startup company. I took the Tuitt Coding bootcamp to enhance my skill in software development and eventually be able to supplement it with my interest in the internet of things(<abbr title="Internet of Things">IOT</abbr>). With my knowledge in instrumentation and control, I'm looking forward to exploring the IOT field.</p>
+						    <p class="card-text text-justify">Hello! I am Joselle or Josh for short. I am an electronics engineer with passion in technology and innovation. I believe that innovation is the way to make life easier and healthier. <span id="only-on-desktop"> I have a masters degree in Electronics and Communiciation Engineering and also took the same bachelors degree. I have experienced working with a utility company as an instrumentation engineer who specializes in meter management. I also worked as a general manager for a startup company. </span> I took the Tuitt Coding bootcamp to enhance my skill in software development and eventually be able to supplement it with my interest in the internet of things(<abbr title="Internet of Things">IOT</abbr>). With my knowledge in instrumentation and control, I'm looking forward to exploring the<abbr title="Internet of Things"> IOT </abbr>field.</p>
 						  </div>
 					</div>
 
@@ -360,18 +346,17 @@
 	<footer>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-10 col-12 mx-0 px-0">
+				<div class="col-lg-10 col-md-9 col-12 mx-0 px-0">
 					<span class="pl-2">Joselle Macrohon || Portfolio&copy; 2018 </span>
 					<p><button class="m-2 p-1"><strong> DISCLAIMER </strong></button></p>
  	
 				</div>
 				
-				<div id="socials-icons" class="col-md-2 col-12 mx-0 px-0">
-					<span ><a id="icon-footer1" href="#"><i class="fab fa-facebook-f"></i></a></span>
-					<span ><a id="icon-footer2" href="#"><i class="fab fa-twitter"></i></a></span>
-					<span ><a id="icon-footer3" href="#"><i class="fab fa-instagram"></i></a></span>
-					<span ><a id="icon-footer4" href="#"><i class="fab fa-github"></i></a></span>
-					<span ><a id="icon-footer5" href="#"><i class="fab fa-gitlab"></i></i></a></span>
+				<div id="socials-icons" class="col-lg-2 col-md-3 col-12 mx-0 px-0">
+					<span ><a id="icon-footer2" href="https://twitter.com/chinah18" target="_blank"><i class="fab fa-twitter"></i></a></span>
+					<span ><a id="icon-footer3" href="https://www.instagram.com/joshermarie/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+					<span ><a id="icon-footer4" href="https://github.com/joselleamacrohon" target="_blank"><i class="fab fa-github"></i></a></span>
+					<span ><a id="icon-footer5" href="https://gitlab.com/joselleamacrohon" target="_blank"><i class="fab fa-gitlab"></i></i></a></span>
 
 				</div>
 			</div>
@@ -383,12 +368,12 @@
 
 
 <!-- jquery first then popper then bootstrap js -->
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
 
 	<!-- external bootstrap -->
-	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
 
 </body>
 </html>
