@@ -14,11 +14,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.container-fluid {
-
-}
-
-
 a:link
 {
 	color:  black;
@@ -120,7 +115,6 @@ a:hover {
 
 #skills-icon:hover {
 	font-size: 22px;
-	
 }
 
 
@@ -128,7 +122,6 @@ a:hover {
 
 #projects-icon {
 	position: relative;
-
 }
 
 #projects-text {
@@ -145,7 +138,6 @@ a:hover {
 
 #projects-icon:hover {
 	font-size: 22px;
-
 }
 
 
@@ -278,6 +270,7 @@ article {
 	background-color: rgba(64,64,64,.4);
 }
 
+
 #sub-titles-projects {
 	font-family: 'Righteous', cursive;
 	font-size: 3em;
@@ -306,7 +299,6 @@ article {
 	position: absolute;
 	top: 60px;
 	left: 150px;
-
 }
 
 #icon-text-cap2 {
@@ -323,12 +315,10 @@ article {
 	right: 150px;
 }
 
-.icon-projects-text
-{
+.icon-projects-text {
 	background-color: black;
 	padding: 1px;
 	color: white;
-
 }
 
 #icon-cap1:hover~#icon-text-cap1 {
@@ -358,7 +348,6 @@ article {
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	height: 400px;
-
 }
 
 #sub-titles-contact {
@@ -366,8 +355,6 @@ article {
 	font-size: 3em;
 	text-align: center;
 }
-
-
 
 /*BACK TO TOP ICON .....................................*/
 
@@ -377,14 +364,7 @@ article {
 }
 
 
-
-
-
-
 /*-------------------------------FOOTER-----------------------------------*/
-
-
-
 
 #socials-icons {
 	text-align: center;
@@ -410,7 +390,6 @@ footer {
 #icon-footer4:visited,
 #icon-footer5:link, 
 #icon-footer5:visited  {
-
 	color: white;
 	font-size: 2em;
 }
@@ -465,7 +444,12 @@ footer span {
 	.page-icons-me {
 		text-align: center;
 		position: relative;
-		top: -.5em;
+		margin-bottom: 0;
+		top: -.1em;
+	}
+
+	#card-me-page .card-body {
+		padding-top: 0;
 	}
 
 	.icon-skills {
@@ -473,8 +457,6 @@ footer span {
 		padding-left: 0;
 		padding-right: 0;
 	}
-
-
 
 	#skills-page .left-article {
 		background-image: url(../images/skills.jpeg);
@@ -487,7 +469,6 @@ footer span {
 		position: absolute;
 		top: 60px;
 		left: 70px;
-
 	}
 
 	#icon-text-cap2 {
@@ -495,7 +476,6 @@ footer span {
 		position: absolute;
 		top: 60px;
 		left: 145px;
-
 	}
 
 	#icon-text-cap3 {
@@ -503,17 +483,23 @@ footer span {
 		position: absolute;
 		top: 60px;
 		right: 75px;
-
 	}
 
-	.icon-projects-text
-	{
+	.icon-projects-text {
 		font-size: 0.8em;
 		background-color: white;
 		padding: 1px;
 		color: black;
-
 	}
+
+	#carousel-capstones {
+		height: 35vh;
+	}
+
+	.capstone-photos {
+		height: 35vh;
+	}
+
 
 	.capstone-box {
 		margin-bottom: .5em;
@@ -556,16 +542,20 @@ footer span {
 	#last-name {
 		position: relative;
 		top: -10px;	
-		margin-bottom: 0
+		margin-bottom: 0;
 	}
 
 	#card-me-page {
 		border: none;
 	}
 
+	#card-me-page .card-body {
+		padding-top: 0;
+	}
+
 	.page-icons-me {
 		position: relative;
-		top: -.5em;
+		top: -.9em;
 		margin-bottom: 0;
 	}
 
