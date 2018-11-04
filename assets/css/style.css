@@ -46,7 +46,6 @@ a:hover {
 	z-index: 98;
 	top: 0;
 	left: 0;
-	/*border: 1px solid red;*/
 }
 
 .nav-item {
@@ -65,14 +64,11 @@ a:hover {
 
 .color-br {
 	border: 1px solid red;
-	/*width:100px;*/
 }
 
 .nav-icon-main {
 	font-size: 20px;
 }
-
-
 
 .nav-text-main {
 	font-size: .7em;
@@ -86,14 +82,12 @@ a:hover {
 }
 
 #me-text {
-visibility: hidden;
-position: absolute;
-/*right: 1px;*/
+	visibility: hidden;
+	position: absolute;
 }
 
 #me-icon:hover #me-text {
 	visibility: visible;
-	/*background-color: red;*/
 	color: purple;
 }
 
@@ -114,14 +108,13 @@ position: absolute;
 }
 
 #skills-text {
-visibility: hidden;
-position: absolute;
-left: 1px;
+	visibility: hidden;
+	position: absolute;
+	left: 1px;
 }
 
 #skills-icon:hover #skills-text{
 	visibility: visible;
-	/*background-color: red;*/
 	color: purple;
 }
 
@@ -139,15 +132,14 @@ left: 1px;
 }
 
 #projects-text {
-position: absolute;
-left: -5px;
-visibility: hidden;
-/*top: -40px;*/
+	position: absolute;
+	left: -5px;
+	visibility: hidden;
+	bottom: 10px;
 }
 
 #projects-icon:hover #projects-text{
 	visibility: visible;
-	/*background-color: red;*/
 	color: purple;
 }
 
@@ -164,16 +156,14 @@ visibility: hidden;
 }
 
 #contact-text {
-position: absolute;
-left: 2px;
-top: 60px;
-visibility: hidden;
-/*top: -60px;*/
+	position: absolute;
+	left: 2px;
+	top: 60px;
+	visibility: hidden;
 }
 
 #contact-icon:hover #contact-text{
 	visibility: visible;
-	/*background-color: red;*/
 	color: purple;
 }
 
@@ -184,24 +174,6 @@ visibility: hidden;
 /*-----------------------------------------article--------------------------------- */
 article {
 	padding-top: 100px;
-	/*height: 800px;*/
-	/*border: 1px solid blue;*/
-}
-
-/*.left-article {
-height: 50vh;
-}
-
-.right-article {
-height: 50vh;
-}
-*/
-
-
-.page-content {
-	/*padding: 0 5% 0 5%;*/
-	/*border: 1px solid blue;*/
-	/*margin: 0;*/
 }
 
 
@@ -209,20 +181,10 @@ height: 50vh;
 
 
 #profile-photo {
-	/*width: 100%;*/
-	/*height: 50%;*/
-
 	height: 60vh;
-	/*background-image: url(../images/profile.jpg);*/
-	/*background-repeat: no-repeat;*/
-	/*background-position: 472px 100px;*/
-	/*background-attachment: fixed; */
-	/*background-color: red;*/
 }
 
 #first-name {
-	/*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Roboto', sans-serif;*/
 	font-family: 'Righteous', cursive;
 	font-size: 4em;
 	text-align: center;
@@ -253,7 +215,6 @@ height: 50vh;
 
 #skills-page .left-article {
 	background-image: url(../images/skills.jpeg);
-	/*width: 500px;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
@@ -265,14 +226,9 @@ height: 50vh;
 }
 
 #sub-titles-skills {
-	/*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Roboto', sans-serif;*/
 	font-family: 'Righteous', cursive;
 	font-size: 3em;
 	text-align: center;
-	/*margin: 0;*/
-	/*position: relative;*/
-	/*top: 120px;*/
 }
 
 .icon-skills {
@@ -286,7 +242,6 @@ height: 50vh;
 }
 
 .list-skills {
-	/*list-style: none;*/
 	text-align: left;
 	margin-left: 30px;
 }
@@ -294,8 +249,6 @@ height: 50vh;
 
 .page-icons-skills {
 	text-align: center;
-	/*position: relative;*/
-	/*top: 80px;*/
 }
 
 .icon-skills:hover {
@@ -326,12 +279,9 @@ height: 50vh;
 }
 
 #sub-titles-projects {
-	/*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Roboto', sans-serif;*/
 	font-family: 'Righteous', cursive;
 	font-size: 3em;
 	text-align: center;
-	/*margin: 0;*/
 	position: relative;
 	top: 120px;
 }
@@ -340,8 +290,8 @@ height: 50vh;
 	text-align: center;
 	position: relative;
 	top: 110px;
-	/*text-decoration: none;*/
 }
+
 .icon-projects {
 	margin-top: 10px;
 	height: 50px;
@@ -364,7 +314,6 @@ height: 50vh;
 	position: absolute;
 	top: 60px;
 	left: 220px;
-
 }
 
 #icon-text-cap3 {
@@ -372,8 +321,8 @@ height: 50vh;
 	position: absolute;
 	top: 60px;
 	right: 150px;
-
 }
+
 .icon-projects-text
 {
 	background-color: black;
@@ -389,21 +338,21 @@ height: 50vh;
 
 #icon-cap2:hover~#icon-text-cap2 {
 	visibility: visible;
-	/*text-decoration-color: none;*/
 	text-decoration:none;
 }
 
 #icon-cap3:hover~#icon-text-cap3 {
 	visibility: visible;
-	/*text-decoration:none;*/
 }
 
+.capstone-box {
+	min-height: 250px;
+}
 
 /*Contact page here .......................................*/
 
 #contact-page .left-article {
 	background-image: url(../images/contact.jpg);
-	/*width: 500px;*/
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -413,14 +362,9 @@ height: 50vh;
 }
 
 #sub-titles-contact {
-	/*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Roboto', sans-serif;*/
 	font-family: 'Righteous', cursive;
 	font-size: 3em;
 	text-align: center;
-	/*margin: 0;*/
-	/*position: relative;*/
-	/*top: 120px;*/
 }
 
 
@@ -443,10 +387,9 @@ height: 50vh;
 
 
 #socials-icons {
-	/*border:1px white solid;*/
 	text-align: center;
-	/*padding-right: 10px;*/
 }
+
 footer {
 	
 	height: auto;
@@ -480,13 +423,13 @@ footer {
 	color: purple;
 }
 
-
-
 footer span {
-	/*padding-left: 20px;*/
-	/*font-family: 'Lobster', cursive;*/
 	font-family: 'Roboto', sans-serif;
 	color: white;
+}
+
+#footer-disclaimer {
+	line-height: 1;
 }
 
 /*MOBILE SCREEN*/
@@ -499,14 +442,11 @@ footer span {
 	}
 
 	#profile-photo {
-		/*height: 100%;*/
-		/*height: 30vh;*/
 		width: 100%;
 		height: 30vh;
 	}
 
 	#first-name {
-		/*font-family: 'Righteous', cursive;*/
 		font-size: 3em;
 		text-align: center;
 		margin: 0;
@@ -538,9 +478,6 @@ footer span {
 
 	#skills-page .left-article {
 		background-image: url(../images/skills.jpeg);
-		/*width: 500px;*/
-		/*background-size: cover;*/
-		/*background-repeat: no-repeat;*/
 		background-attachment: fixed; 
 		height: 400px;
 	}
@@ -582,18 +519,20 @@ footer span {
 		margin-bottom: .5em;
 	}
 
-	
-
 	#contact-page .left-article {
 		background-image: url(../images/contact.jpg);
-		/*width: 500px;*/
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed; 
 		height: 400px;
 	}
+
 	footer {
 		height: auto;
+	}
+
+	#footer-disclaimer {
+		display: none;
 	}
 
 }/*end of mobile view*/
@@ -608,8 +547,6 @@ footer span {
 		width: 100%;
 		height: auto;
 	}
-
-	
 
 	#first-name {
 		position: relative;
