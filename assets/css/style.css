@@ -346,6 +346,10 @@ position: relative;
 	min-height: 250px;
 }
 
+.card-content-capstone {
+	min-height: 12em;
+}
+
 /*Contact page here .......................................*/
 
 #contact-page .left-article {
@@ -460,7 +464,7 @@ footer span {
 	}
 
 	.icon-skills {
-		height: 60px;
+		height: 50px;
 		padding-left: 0;
 		padding-right: 0;
 	}
