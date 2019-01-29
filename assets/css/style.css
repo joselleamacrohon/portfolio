@@ -291,32 +291,36 @@ article {
 
 .icon-projects {
 	margin-top: 10px;
-	height: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
+	height: 80px;
+	margin-left: 5px;
+	margin-right: 5px;
 	text-decoration:none;
 	position: relative;
+}
+
+#icon-cap1 {
+position: relative;
 }
 
 #icon-text-cap1 {
 	visibility: hidden;
 	position: absolute;
-	top: 60px;
-	left: 150px;
+	top: 100px;
+	left: 110px;
 }
 
 #icon-text-cap2 {
 	visibility: hidden;
 	position: absolute;
-	top: 60px;
-	left: 220px;
+	top: 100px;
+	left: 130px;
 }
 
 #icon-text-cap3 {
 	visibility: hidden;
 	position: absolute;
-	top: 60px;
-	right: 150px;
+	top: 100px;
+	right: 20px;
 }
 
 .icon-projects-text {
@@ -324,7 +328,6 @@ article {
 	padding: 1px;
 	color: white;
 }
-
 #icon-cap1:hover~#icon-text-cap1 {
 	visibility: visible;
 	text-decoration: none;
